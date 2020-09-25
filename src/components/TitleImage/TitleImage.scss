@@ -1,0 +1,22 @@
+.title-image {
+  width: 378px;
+  height: 106px;
+  background: url(../../assets/images/title-main.png);
+  position: relative;
+
+  .background-light {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    width: 100%;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF07FF;
+    position: absolute;
+    bottom: 0;
+    transform: skewX(-52deg);
+
+  }
+}

@@ -1,0 +1,32 @@
+.blue-rectangles-background {
+  background: url(../../assets/images/blue-ractangles-pattern.png) space;
+  position: relative;
+  z-index: 99;
+  padding: 100px 0;
+}
+
+.WhiteSection {
+  min-height: 457px;
+  background: #fff;
+
+  &__text-wrap {
+    max-width: 698px;
+    width: 100%;
+
+
+    h2 {
+      margin-bottom: 40px;
+      font-size: 43px;
+      background: -webkit-radial-gradient(#560271, #170024);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 24px;
+      background: -webkit-radial-gradient(#BD1FAC, #170024);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

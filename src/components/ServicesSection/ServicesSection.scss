@@ -1,0 +1,52 @@
+.ServicesSection {
+  min-height: 700px;
+  padding: 200px 0;
+
+  &__container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    .info-wrap {
+      max-width: 330px;
+      width: 25%;
+
+      .image-wrap {
+        min-height: 220px;
+      }
+
+      .text-wrap {
+        margin-top: 30px;
+        min-height: 165px;
+
+        h2 {
+          font-size: 36px;
+        }
+
+        p {
+          margin-top: 26px;
+        }
+      }
+
+      .btn {
+        margin-top: 20px;
+      }
+    }
+  }
+  .info-image {
+    background: url(../../assets/images/backgroundticketpng.png) ;
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: round;
+  }
+  .image-wrap {
+    min-height: 220px;
+  }
+
+  .text-wrap {
+    margin-top: 30px;
+    min-height: 165px;
+
+  }
+
+}

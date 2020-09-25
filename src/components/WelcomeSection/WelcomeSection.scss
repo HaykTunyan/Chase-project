@@ -1,0 +1,50 @@
+.WelcomeSection {
+  min-height: 700px;
+  padding-bottom: 40px;
+
+  &__container {
+    max-width: 1030px;
+    margin: 150px auto 0 auto;
+
+    h2 {
+      font-size: 48px;
+      margin-bottom: 120px;
+    }
+
+    .text-box {
+      max-width: 489px;
+      width: 50%;
+      padding: 36px;
+      min-height: 391px;
+      background: #fff;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      -moz-box-shadow: inset -9px -1px 20px 0px #bd1fac80;
+      -webkit-box-shadow: inset -9px -1px 20px 0px #bd1fac80;
+      box-shadow: inset -9px -1px 20px 0px #bd1fac80;
+      position: relative;
+
+      h3 {
+        font-size: 38px;
+        background: -webkit-radial-gradient(#560271, #170024);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      p {
+        font-size: 20px;
+        margin-top: 10px;
+        background: -webkit-radial-gradient(#BD1FAC, #170024);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      img {
+        position: absolute;
+        top: -103px;
+        right: -44px;
+      }
+    }
+
+  }
+}
